@@ -1,0 +1,59 @@
+body{
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+header{
+    background-image: url('../images/header.png');
+    color: #FFFFFF;
+}
+
+#header{
+    min-height: 135px;
+}
+
+#footer{
+    background-color: #FFFFFF;
+    min-height: 50px;
+}
+
+#content{
+    margin: 5%;
+}
+
+.nav-item{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.grey{
+    background-color: rgb(242, 242, 240);
+    border-radius: 1px 1px 1px 1px;
+}
+
+
+.blue{
+    background-color: rgb(20, 67, 139);
+}
+
+.green_font{
+    color: rgb(89, 183, 12);
+    font-weight: bold;
+}
+
+.blue_font{
+    color: rgb(20, 67, 139);
+    font-style: italic;
+    font-size: smaller;
+}
+
+.form-group{
+    border: 1px solid red;
+}
+
+.nav-item{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
