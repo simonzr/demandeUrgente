@@ -16,27 +16,19 @@
 
 
 <body>
-<header class="container-fluid">
-    <div class="row align-items-center justify-content-center" id="header" style="border: 1px solid orangered">
-        <div class="col-lg-10" style="border: 1px solid red">
-            <div class="row align-items-center  justify-content-around">
-                <div class="col-sm-6" style="border: 1px solid greenyellow">
-                    <img src="images/LOGO.png" alt="Retraite Plus">
+    <header>
+        <div class="container border border-success pt-5">
+            <div id="headerRow" class="row border border-warning justify-content-between align-items-top pb-5">
+                <div class="col-sm-5 p-0">
+                    <img class="img" src="images/LOGO.png" alt="Retraite Plus" class="border border-danger">
                 </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-sm-12" style="font-size: 22pt ; font-family: open_sanslight">
-                            Trouvez une maison de retraite <strong>adaptée</strong>
-                        </div>
-                        <div class="col-lg-12" style="font-size: 13pt ; font-family: open_sanslight">
-                            Affinez votre recherche et obtenez une place en temps réel
-                        </div>
-                    </div>
+                <div class="col-sm-5 p-0">
+                    <div id="text1" class="border border-danger">Trouvez une maison de retraite <strong>adaptée</strong></div>
+                    <div id="text2" class="d-none d-sm-block border border-danger">Affinez votre recherche et obtenez une place en temps réel</div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
 
 
