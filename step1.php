@@ -22,7 +22,7 @@
 <body>
     <?php include 'header.php'; ?>
 
-    <div class="container-fluid"/>
+    <div class="container"/>
         <div class="row justify-content-center" style="border: 1px solid purple">
             <div class="col-lg-10" id="content" style="border: 1px solid blue" id="content" >
                     <h3>Je recherche pour</h3>

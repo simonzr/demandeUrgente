@@ -16,9 +16,9 @@
 
 
 <body>
-<footer class="container">
-    <div class="row" id="footer">
-        <div class="col-lg-12 blue_font" id="footer">
+<footer id="footer" class="container border border-primary">
+    <div class="row border border-warning">
+        <div class="col-lg-12 blue_font">
             <img src="images/cadenas.png" alt="Cadenas">  <strong>Vos informations restent confidentielles et sont protégées.</strong>
             <br>
             © 2018 - Retraite Plus - Déclaré à la CNIL (Commission Nationale d'Informatique et Liberté) sous le N°1410351

@@ -3,11 +3,19 @@ body{
     background-color: #FFFFFF;
 }
 
-header
-{
+[class*="col"] [class*="row"]{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
     background-image: url('../images/header.png');
     background-size: cover;
     color: #FFFFFF;
+    height: 180px;
+}
+
+.container{
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -31,13 +39,7 @@ header
     min-height: 50px;
 }
 
-#content{
-    margin: 5%;
-}
-
 .nav-item{
-    margin: 0px;
-    padding: 0px;
     text-align: center;
 }
 
@@ -74,10 +76,7 @@ header
 /*MEDIA QUERIES*/
 
 @media screen and (max-device-width: 576px) {
-    #headerRow{
-        margin-right: 0px;
-        text-align: center;
-    }
+
 
 
 }
