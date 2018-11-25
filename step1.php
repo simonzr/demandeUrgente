@@ -22,168 +22,28 @@
 <body>
     <?php include 'header.php'; ?>
 
-    <div class="container"/>
-        <div class="row justify-content-center" style="border: 1px solid purple">
-            <div class="col-lg-10" id="content" style="border: 1px solid blue" id="content" >
-                    <h3>Je recherche pour</h3>
-                    <br>
-
-
-                    <!-- NAVTAB -->
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item grey green_font">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-                                <i class="fas fa-user green_font"></i> 1 personne
-                            </a>
-                        </li>
-                        <li class="nav-item grey green_font">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
-                                <i class="fas fa-user-friends green_font"></i> 2 personnes
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- PANNEAU DE CHOIX -->
-                    <div class="tab-content col-md-7 grey" id="myTabContent">
-                        <!-- PANNEAU 1 -->
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <div class="row">
-                                <form class="col-lg-6">
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col-md-3">
-                                            <select class="custom-select">
-                                                <option selected>Mr</option>
-                                                <option value="1">Mr</option>
-                                                <option value="2">Mme</option>
-                                            </select>
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Prénom">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Nom">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Domiciliation (CP, Ville...)">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col-md-3">
-                                            <select class="custom-select">
-                                                <option selected>Age</option>
-                                                <option value="1">Value 1</option>
-                                                <option value="2">Value 2</option>
-                                                <option value="3">Value 3</option>
-                                            </select>
-                                        </div>
-                                        <div class="col grey blue_font">
-                                            <i class="fas fa-info-circle"></i> L'âge fait partie des critères pouvant déterminer le type de structure adaptée.
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <!-- PANNEAU 2 -->
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <div class="row">
-                                <form class="col-lg-6">
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col-md-3">
-                                            <select class="custom-select">
-                                                <option selected>Mr</option>
-                                                <option value="1">Mr</option>
-                                                <option value="2">Mme</option>
-                                            </select>
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Prénom">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Nom">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Domiciliation (CP, Ville...)">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col-md-3">
-                                            <select class="custom-select">
-                                                <option selected>Age</option>
-                                                <option value="1">Value 1</option>
-                                                <option value="2">Value 2</option>
-                                                <option value="3">Value 3</option>
-                                            </select>
-                                        </div>
-                                        <div class="col grey blue_font">
-                                            <i class="fas fa-info-circle"></i> L'âge fait partie des critères pouvant déterminer le type de structure adaptée.
-                                        </div>
-                                    </div>
-                                </form>
-                                <form class="col-lg-6" id="second_tab">
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col-md-3">
-                                            <select class="custom-select">
-                                                <option selected>Mr</option>
-                                                <option value="1">Mr</option>
-                                                <option value="2">Mme</option>
-                                            </select>
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Prénom">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Nom">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Domiciliation (CP, Ville...)">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="form-row">
-                                        <div class="col-md-3">
-                                            <select class="custom-select">
-                                                <option selected>Age</option>
-                                                <option value="1">Value 1</option>
-                                                <option value="2">Value 2</option>
-                                                <option value="3">Value 3</option>
-                                            </select>
-                                        </div>
-                                        <div class="col grey blue_font">
-                                            <i class="fas fa-info-circle"></i> L'âge fait partie des critères pouvant déterminer le type de structure adaptée.
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+    <div class="container border border-success">
+        <div class="row">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active border border-warning" id="home" role="tabpanel" aria-labelledby="home-tab" style="height: 200px;">
+                    <div class="row">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eligendi ex ipsum necessitatibus nisi quasi repellendus sed vitae voluptate voluptatum!
+                    </div>
+                </div>
+                <div class="tab-pane fade border border-danger" id="profile" role="tabpanel" aria-labelledby="profile-tab" style="height: 200px;">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum itaque necessitatibus officia, possimus reiciendis repellat reprehenderit tenetur? Ab, asperiores, assumenda?
                         </div>
                     </div>
-                <div class="row justify-content-center align-items-center">
-                    <br><br>
-                    <button class="btn">PASSER</button>
-                    <br>
                 </div>
             </div>
         </div>
