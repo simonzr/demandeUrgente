@@ -24,28 +24,63 @@
 
     <div class="container border border-success">
         <div class="row">
+
+            <!--Onglets-->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                        <i class="fas fa-user"></i> 1 personne
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                        <i class="fas fa-user-friends"></i> 2 personnes
+                    </a>
                 </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active border border-warning" id="home" role="tabpanel" aria-labelledby="home-tab" style="height: 200px;">
-                    <div class="row">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eligendi ex ipsum necessitatibus nisi quasi repellendus sed vitae voluptate voluptatum!
-                    </div>
-                </div>
-                <div class="tab-pane fade border border-danger" id="profile" role="tabpanel" aria-labelledby="profile-tab" style="height: 200px;">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum itaque necessitatibus officia, possimus reiciendis repellat reprehenderit tenetur? Ab, asperiores, assumenda?
+
+            <!--Panneaux-->
+            <div class="tab-content col-sm-12 border border-success" id="myTabContent">
+                <div class="tab-pane fade show active border border-warning" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <form>
+                        <div class="form-row border border-primary">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-3">
+                                        <select class="form-control form-control-lg" name="Sexe" id="">
+                                            <option value="Mr">Mr</option>
+                                            <option value="Mme">Mme</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-9">
+                                        <input type="password" class="form-control-lg" id="inputPassword4" placeholder="Prénom">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                    </div>
+                    </form>
+                    <button class="btn btn-warning">Submit 1</button>
+                </div>
+                <div class="tab-pane fade border border-danger" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <button class="btn btn-danger">Submit 2</button>
                 </div>
             </div>
+
         </div>
     </div>
 
