@@ -23,24 +23,24 @@
     <?php include 'header.php'; ?>
 
     <div class="container border border-success">
-        <div class="row border border-success pt-5">
+        <div class="row border border-success pt-5 pb-5">
 
             <!--Onglets-->
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <ul class="nav nav-tabs grey" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                    <a class="nav-link green_font" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
                         <i class="fas fa-user"></i> 1 personne
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                    <a class="nav-link green_font" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
                         <i class="fas fa-user-friends"></i> 2 personnes
                     </a>
                 </li>
             </ul>
 
             <!--Panneaux-->
-            <div class="tab-content col-sm-12 border border-success" id="myTabContent">
+            <div class="tab-content col-sm-12 border border-success grey" id="myTabContent">
                 <div class="tab-pane fade show active border border-warning" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <form>
                         <div class="form-row">
