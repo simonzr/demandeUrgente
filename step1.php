@@ -23,7 +23,7 @@
     <?php include 'header.php'; ?>
 
     <div class="container border border-success">
-        <div class="row">
+        <div class="row border border-success pt-5">
 
             <!--Onglets-->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -43,41 +43,111 @@
             <div class="tab-content col-sm-12 border border-success" id="myTabContent">
                 <div class="tab-pane fade show active border border-warning" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <form>
-                        <div class="form-row border border-primary">
-                            <form>
+                        <div class="form-row">
+                            <div class="col-sm-5">
                                 <div class="form-row">
-                                    <div class="form-group col-md-3">
-                                        <select class="form-control form-control-lg" name="Sexe" id="">
-                                            <option value="Mr">Mr</option>
+                                    <div class="form-group col-sm-4 mt-3">
+                                        <select class="custom-select form-control" name="Sex" id="">
+                                            <option  selected value="Mr">Mr</option>
                                             <option value="Mme">Mme</option>
                                         </select>
                                     </div>
-                                    <div class="form-group col-md-9">
-                                        <input type="password" class="form-control-lg" id="inputPassword4" placeholder="Prénom">
+                                    <div class="form-group col mt-3">
+                                        <input type="text" class="form-control" placeholder="Prénom">
                                     </div>
                                 </div>
-
                                 <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="inputCity">
+                                    <div class="form-group col">
+                                        <input type="text" class="form-control" placeholder="Nom">
                                     </div>
-                                    <div class="form-group col-md-4">
-                                        <select id="inputState" class="form-control">
-                                            <option selected>Choose...</option>
-                                            <option>...</option>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col">
+                                        <input type="text" class="form-control" placeholder="Domiciliation (CP, Ville...)">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-sm-4">
+                                        <select class="custom-select form-control" name="Sex" id="Âge" >
+                                            <option selected>Âge</option>
+                                            <option value="+ de 60 ans">+ de 60 ans</option>
+                                            <option value="+ de 70 ans">+ de 70 ans</option>
                                         </select>
                                     </div>
-                                    <div class="form-group col-md-2">
-                                        <input type="text" class="form-control" id="inputZip">
-                                    </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </form>
-                    <button class="btn btn-warning">Submit 1</button>
                 </div>
                 <div class="tab-pane fade border border-danger" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <button class="btn btn-danger">Submit 2</button>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-sm-5">
+                                <div class="form-row">
+                                    <div class="form-group col-sm-4 mt-3">
+                                        <select class="custom-select form-control" name="Sex" id="">
+                                            <option  selected value="Mr">Mr</option>
+                                            <option value="Mme">Mme</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col mt-3">
+                                        <input type="text" class="form-control" placeholder="Prénom">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col">
+                                        <input type="text" class="form-control" placeholder="Nom">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col">
+                                        <input type="text" class="form-control" placeholder="Domiciliation (CP, Ville...)">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-sm-4">
+                                        <select class="custom-select form-control" name="Sex" id="Âge" >
+                                            <option selected>Âge</option>
+                                            <option value="+ de 60 ans">+ de 60 ans</option>
+                                            <option value="+ de 70 ans">+ de 70 ans</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="form-row">
+                                    <div class="form-group col-sm-4 mt-3">
+                                        <select class="custom-select form-control" name="Sex" id="">
+                                            <option  selected value="Mr">Mr</option>
+                                            <option value="Mme">Mme</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col mt-3">
+                                        <input type="text" class="form-control" placeholder="Prénom">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col">
+                                        <input type="text" class="form-control" placeholder="Nom">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col">
+                                        <input type="text" class="form-control" placeholder="Domiciliation (CP, Ville...)">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-sm-4">
+                                        <select class="custom-select form-control" name="Sex" id="Âge" >
+                                            <option selected>Âge</option>
+                                            <option value="+ de 60 ans">+ de 60 ans</option>
+                                            <option value="+ de 70 ans">+ de 70 ans</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
 
