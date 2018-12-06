@@ -16,15 +16,15 @@
 
 
 <body>
-    <header>
-        <div class="container border border-success">
-            <div id="headerRow" class="row border border-warning justify-content-between align-items-top">
+    <header class="d-flex align-items-center">
+        <div class="container">
+            <div id="headerRow" class="row justify-content-between align-items-center">
                 <div class="col-sm-5">
-                    <img class="img border border-danger" src="images/LOGO.png" alt="Retraite Plus">
+                    <img class="img" src="images/LOGO.png" alt="Retraite Plus">
                 </div>
                 <div class="col-sm-5">
-                    <div id="text1" class="border border-danger">Trouvez une maison de retraite <strong>adaptée</strong></div>
-                    <div id="text2" class="d-none d-sm-block border border-danger">Affinez votre recherche et obtenez une place en temps réel</div>
+                    <div id="text1" >Trouvez une maison de retraite <strong>adaptée</strong></div>
+                    <div id="text2" class="d-none d-sm-block">Affinez votre recherche et obtenez une place en temps réel</div>
                 </div>
             </div>
         </div>

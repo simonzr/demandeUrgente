@@ -22,11 +22,11 @@
 <body>
     <?php include 'header.php'; ?>
 
-    <div class="container border border-success">
+    <div class="container border border-success" id="content">
         <div class="row border border-success pt-5 pb-5">
 
             <!--Onglets-->
-            <ul class="nav nav-tabs grey" id="myTab" role="tablist">
+            <ul class="nav nav-tabs grey d-none d-sm-flex" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link green_font" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
                         <i class="fas fa-user"></i> 1 personne
@@ -150,7 +150,6 @@
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 

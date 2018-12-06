@@ -1,74 +1,83 @@
-body{
+body {
     padding: 0px;
     background-color: #FFFFFF;
 }
 
-[class*="col"] [class*="row"]{
+[class*="col"] [class*="row"] {
     padding: 0px;
     margin: 0px;
 }
 
-header{
+header {
     background-image: url('../images/header.png');
-    background-size: cover;
+    background-size: contain;
     color: #FFFFFF;
     height: 180px;
+    justify-content: center;
 }
 
-.container{
+#content {
+    height: 520px;
+}
+
+footer {
+    height: 60px;
+}
+
+.container {
     padding-left: 100px;
     padding-right: 100px;
 }
 
-[id*="text"]{
+[id*="text"] {
     text-align: justify-all;
 }
 
-#text1{
+#text1 {
     font-family: "Open Sans";
     font-size: 14pt;
 }
 
-#text2{
+#text2 {
     font-family: "Open Sans";
     font-size: 8pt;
 }
 
-#footer{
+#footer {
     background-color: #FFFFFF;
     min-height: 50px;
 }
 
-.nav-item{
+.nav-item {
     text-align: center;
 }
 
-.grey{
+.grey {
     background-color: rgb(242, 242, 240);
     border-radius: 1px 1px 1px 1px;
 }
 
 
-.blue{
+.blue {
     background-color: rgb(20, 67, 139);
 }
 
-.green_font{
+.green_font {
     color: rgb(89, 183, 12);
     font-weight: bold;
 }
 
-.blue_font{
+.blue_font {
     color: rgb(20, 67, 139);
     font-style: italic;
     font-size: smaller;
 }
 
-.form-group{
+.form-group {
     border: 1px solid red;
 }
 
-.nav-item{
+.nav-item {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -77,6 +86,27 @@ header{
 
 @media screen and (max-device-width: 576px) {
 
+    #text1 {
+        font-size: 8px;
+    }
 
+    header {
+        height: 130px;
+    }
 
+    #content {
+        height: 550px;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    #footer {
+        font-size: xx-small;
+    }
+
+    #content {
+        ;
+    }
 }
